@@ -1,0 +1,26 @@
+<CycloneDDS>
+
+ <Domain>
+
+ <General>
+
+   <Interfaces>
+      <NetworkInterface name="wlp6s0" />
+   </Interfaces>
+   <DontRoute>true</DontRoute>
+</General>
+<Discovery>
+      <ParticipantIndex>auto</ParticipantIndex>
+      <Peers>
+        <Peer Address="172.20.10.2"/>
+        <Peer Address="192.168.1.241"/>
+        <Peer Address="192.168.1.49"/>
+        <Peer Address="192.168.8.215"/>
+        <Peer Address="192.168.8.226"/>
+        <Peer Address="127.20.10.10"/>
+      </Peers>
+      <MaxAutoParticipantIndex>120</MaxAutoParticipantIndex>
+</Discovery>
+</Domain>
+
+</CycloneDDS>
